@@ -13,3 +13,7 @@ my-list
   (format "a is %d and b is %d" a b))
 
 a ; void
+
+(let* ((a 1) ; let* allow variables to assigned sequentially
+       (b (+ a 5))) ; so they can depend on each other
+  (format "a is %d and b is %d" a b))
