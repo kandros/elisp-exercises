@@ -2,8 +2,8 @@
 (insert "ciaone") ; inserts ciaone at cursor
 (quote(1 2 3)) ; (1 2 3)
 '(1 2 3) ; (1 2 3)
-(car '(1 2 3)) ; 1
-(cdr '(1 2 3)) ; ( 2 3)
+(car '(1 2 3)) ; 1 (car il like head)
+(cdr '(1 2 3)) ; ( 2 3) (cdr is like tail)
  '() ; nil
  () ; nil
  nil ; nil
