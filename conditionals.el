@@ -19,8 +19,9 @@
    ((= n 1) "foo")
    ((= n 2) "bar")
    ((= n 3) "baz")
-   ))
+   (t "default")))
 
 (pick-a-word 1) ; foo
 (pick-a-word 2) ; bar
 (pick-a-word 3) ; baz
+(pick-a-word 3333) ; default
