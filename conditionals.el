@@ -1,7 +1,4 @@
-;; consditionals
-
-(when (= (+ 2 2 ) 4)
-  (message "yes baby")) ; prints yeas baby to minibuffer
+s baby to minibuffer
 
 (when (= (+ 1 1 ) 5)
   (message "nope")) ; nil
